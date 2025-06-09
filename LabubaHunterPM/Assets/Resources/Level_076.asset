@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c3e77ed0582b2499cd5b42df1eb9c4, type: 3}
+  m_Name: Level_076
+  m_EditorClassIdentifier: 
+  _id: 75
+  _nameKey: level
+  _prefabMobile: {fileID: 1279466365529842372, guid: ec048648b01837140b3792785f40cd40,
+    type: 3}
+  _coinsForLevel: 400
+  _enemyHealthMultiplier: 3
+  _levelType: {fileID: 11400000, guid: 11608850b87c026449284120591acba2, type: 2}
+  _positionStartPoint: {x: -62, y: 2.6, z: -6}
+  _rotationStartPoint: {x: 0, y: -19, z: 0, w: 0}

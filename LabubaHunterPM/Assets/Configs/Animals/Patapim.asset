@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9175c0c5e9d3cda4ca4b1de4d8fee3f1, type: 3}
+  m_Name: Patapim
+  m_EditorClassIdentifier: 
+  _icon: {fileID: 21300000, guid: bae265f539f93d544b31d530025989f1, type: 3}
+  _canHear: 1
+  _mustSeePlayer: 1
+  _walkSpeed: 0.5
+  _runSpeed: 0.7
+  _attackSpeed: 0
+  _soundAttack: {fileID: 0}
+  _soundIdle: {fileID: 8300000, guid: 6155c4734deae564c969087cd37e6a5b, type: 3}
+  _soundDeath: {fileID: 8300000, guid: ad0d2099100752e478a8a4d6641d7f63, type: 3}
+  _soundDamage: {fileID: 8300000, guid: c98bd0b45ea4b5847ab198f3f1634960, type: 3}

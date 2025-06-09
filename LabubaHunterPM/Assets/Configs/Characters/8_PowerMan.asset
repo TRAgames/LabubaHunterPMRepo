@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba4f9ed0a3c9f549a1d3a60e303d99e, type: 3}
+  m_Name: 8_PowerMan
+  m_EditorClassIdentifier: 
+  _id: 6
+  _prefab: {fileID: 1729313671996171443, guid: 52ad2f2c8d815164fa61c0e39754c0e5, type: 3}
+  _isBlocked: 1
+  _isAdsUnblock: 0
+  _isPaidCoins: 1
+  _isPaidCrystals: 0
+  _costUnblock: 700
+  _damageMul: 0.12
+  _healthMul: 0.12
+  _damageBodyBase: 19
+  _damageHeadBase: 38
+  _fireRateBase: 0.18
+  _reloadTime: 2
+  _magazineBase: 60
+  _speedBase: 3
+  _healthBase: 200
+  _costUpgradeMul: 5
+  _costUpgradeBase: 240

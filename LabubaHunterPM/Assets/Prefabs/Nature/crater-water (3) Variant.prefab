@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6075162888709534371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4210515476277999078, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5077596fd03948479386c08b1c99fd1, type: 2}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 164.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 330.52002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476279768838, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210515476280191782, guid: d383ad2fcfb4f744b8dffa58a3340758,
+        type: 3}
+      propertyPath: m_Name
+      value: crater-water (3) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d383ad2fcfb4f744b8dffa58a3340758, type: 3}
