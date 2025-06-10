@@ -66226,7 +66226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 911018792}
-  _musicLobby: {fileID: 8300000, guid: 740df4468d09b8744aae8c433d410046, type: 3}
+  _musicLobby: {fileID: 8300000, guid: f4c74bc7b2d17f34abc528452af7f0c9, type: 3}
   _musicGameplay: {fileID: 0}
 --- !u!1 &911142621
 GameObject:

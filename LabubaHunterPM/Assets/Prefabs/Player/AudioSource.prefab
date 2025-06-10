@@ -589,7 +589,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1065,7 +1065,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Bombardino
+    name: Lucky
     startState: Idle
     states:
     - name: Idle
@@ -1603,14 +1603,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 80.5
         y: 130.5
-        width: 139
+        width: 103
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Bombardino Death
+          name: Lucky Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -1710,7 +1710,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Bombardino Death Sound
+          name: Lucky Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1729,7 +1729,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bombardino Death
+          name: Lucky Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bombardino Death
+          name: Lucky Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1906,7 +1906,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bombardino Death
+          name: Lucky Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1936,7 +1936,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Bombardino Death
+    - name: Lucky Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -1948,7 +1948,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Bombardino Death
+        name: Lucky Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1962,7 +1962,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Bombardino Death Sound
+        name: Lucky Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1985,7 +1985,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2037,7 +2037,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Bananini
+    name: Brawn
     startState: Idle
     states:
     - name: Idle
@@ -2047,14 +2047,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 55
         y: 165.5
-        width: 117
+        width: 105
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Bananini Death
+          name: Brown Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -2154,7 +2154,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Bananini Death Sound
+          name: Brown Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2173,7 +2173,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bananini Death
+          name: Brown Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2263,7 +2263,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bananini Death
+          name: Brown Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2350,7 +2350,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bananini Death
+          name: Brown Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2380,7 +2380,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Bananini Death
+    - name: Brown Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -2392,7 +2392,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Bananini Death
+        name: Brown Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -2406,7 +2406,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Bananini Death Sound
+        name: Brown Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -2429,7 +2429,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2873,7 +2873,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2925,7 +2925,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Avocadogorilla
+    name: Black
     startState: Idle
     states:
     - name: Idle
@@ -2935,14 +2935,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 56
         y: 107.5
-        width: 156
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Avocadogorilla Death
+          name: Black Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -3042,7 +3042,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Avocadogorilla Death Sound
+          name: Black Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3061,7 +3061,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Avocadogorilla Death
+          name: Black Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3151,7 +3151,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Avocadogorilla Death
+          name: Black Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3238,7 +3238,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Avocadogorilla Death
+          name: Black Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3268,7 +3268,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Avocadogorilla Death
+    - name: Black Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -3280,7 +3280,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Avocadogorilla Death
+        name: Black Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3294,7 +3294,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Avocadogorilla Death Sound
+        name: Black Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3317,7 +3317,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -3369,7 +3369,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Glorbo
+    name: Samurai
     startState: Idle
     states:
     - name: Idle
@@ -3379,14 +3379,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 51
         y: 102.5
-        width: 107
+        width: 116
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Glorbo Death
+          name: Samurai Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -3486,7 +3486,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Glorbo Death Sound
+          name: Samurai Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3505,7 +3505,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Glorbo Death
+          name: Samurai Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3595,7 +3595,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Glorbo Death
+          name: Samurai Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3682,7 +3682,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Glorbo Death
+          name: Samurai Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3712,10 +3712,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Glorbo Death
+    - name: Play
       isSystemEvent: 0
       isGlobal: 0
-    - name: Play
+    - name: Samurai Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -3724,7 +3724,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Glorbo Death
+        name: Samurai Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3738,7 +3738,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Glorbo Death Sound
+        name: Samurai Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3761,7 +3761,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -3813,7 +3813,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Boneca
+    name: Orange
     startState: Idle
     states:
     - name: Idle
@@ -3830,7 +3830,7 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Boneca Death
+          name: Orange Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -3930,7 +3930,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Boneca Death Sound
+          name: Orange Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3949,7 +3949,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Boneca Death
+          name: Orange Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4039,7 +4039,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Boneca Death
+          name: Orange Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4126,7 +4126,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Boneca Death
+          name: Orange Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4156,7 +4156,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Boneca Death
+    - name: Orange Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -4168,7 +4168,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Boneca Death
+        name: Orange Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4182,7 +4182,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Boneca Death Sound
+        name: Orange Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4205,7 +4205,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4257,7 +4257,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Celeste
+    name: Pink_Girl
     startState: Idle
     states:
     - name: Idle
@@ -4267,14 +4267,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 59
         y: 136
-        width: 113
+        width: 119
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Celeste Death
+          name: Pink_Girl Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -4374,7 +4374,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Celeste Death Sound
+          name: Pink_Girl Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4393,7 +4393,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Celeste Death
+          name: Pink_Girl Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4483,7 +4483,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Celeste Death
+          name: Pink_Girl Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4570,7 +4570,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Celeste Death
+          name: Pink_Girl Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4600,7 +4600,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Celeste Death
+    - name: Pink_Girl Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -4612,7 +4612,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Celeste Death
+        name: Pink_Girl Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4626,7 +4626,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Celeste Death Sound
+        name: Pink_Girl Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4649,7 +4649,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5093,7 +5093,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5145,7 +5145,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Assassino
+    name: Baby
     startState: Idle
     states:
     - name: Idle
@@ -5155,14 +5155,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 69.5
         y: 155
-        width: 129
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Assassino Death
+          name: Baby Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -5262,7 +5262,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Assassino Death Sound
+          name: Baby Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5281,7 +5281,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Assassino Death
+          name: Baby Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5371,7 +5371,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Assassino Death
+          name: Baby Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5458,7 +5458,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Assassino Death
+          name: Baby Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5488,7 +5488,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Assassino Death
+    - name: Baby Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -5500,7 +5500,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Assassino Death
+        name: Baby Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5514,7 +5514,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Assassino Death Sound
+        name: Baby Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5537,7 +5537,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5589,7 +5589,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Balerina
+    name: Blue
     startState: Idle
     states:
     - name: Idle
@@ -5599,14 +5599,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 54
         y: 106
-        width: 115
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Balerina Death
+          name: Blue Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -5706,7 +5706,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Balerina Death Sound
+          name: Blue Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5725,7 +5725,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Balerina Death
+          name: Blue Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5815,7 +5815,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Balerina Death
+          name: Blue Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5902,7 +5902,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Balerina Death
+          name: Blue Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5932,7 +5932,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Balerina Death
+    - name: Blue Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -5944,7 +5944,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Balerina Death
+        name: Blue Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5958,7 +5958,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Balerina Death Sound
+        name: Blue Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5981,7 +5981,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6033,7 +6033,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Bobrito
+    name: Farmer
     startState: Idle
     states:
     - name: Idle
@@ -6043,14 +6043,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 64.5
         y: 136
-        width: 111
+        width: 110
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Bobrito Death
+          name: Farmer Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -6150,7 +6150,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Bobrito Death Sound
+          name: Farmer Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6169,7 +6169,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bobrito Death
+          name: Farmer Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6259,7 +6259,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bobrito Death
+          name: Farmer Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6346,7 +6346,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Bobrito Death
+          name: Farmer Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6376,7 +6376,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Bobrito Death
+    - name: Farmer Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -6388,7 +6388,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Bobrito Death
+        name: Farmer Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -6402,7 +6402,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Bobrito Death Sound
+        name: Farmer Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -6425,7 +6425,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6477,7 +6477,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Camelo
+    name: Pink
     startState: Idle
     states:
     - name: Idle
@@ -6487,14 +6487,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 71
         y: 146
-        width: 112
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Camelo Death
+          name: Pink Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -6594,7 +6594,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Camelo Death Sound
+          name: Pink Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6613,7 +6613,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Camelo Death
+          name: Pink Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6703,7 +6703,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Camelo Death
+          name: Pink Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6790,7 +6790,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Camelo Death
+          name: Pink Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -6820,7 +6820,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Camelo Death
+    - name: Pink Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -6832,7 +6832,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Camelo Death
+        name: Pink Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -6846,7 +6846,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Camelo Death Sound
+        name: Pink Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -6869,7 +6869,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6921,7 +6921,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Cocosini
+    name: Purple
     startState: Idle
     states:
     - name: Idle
@@ -6931,14 +6931,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 62.5
         y: 152
-        width: 118
+        width: 106
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Cocosini Death
+          name: Purple Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -7038,7 +7038,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Cocosini Death Sound
+          name: Purple Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7057,7 +7057,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Cocosini Death
+          name: Purple Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7147,7 +7147,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Cocosini Death
+          name: Purple Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7234,7 +7234,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Cocosini Death
+          name: Purple Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7264,10 +7264,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Cocosini Death
+    - name: Play
       isSystemEvent: 0
       isGlobal: 0
-    - name: Play
+    - name: Purple Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -7276,7 +7276,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Cocosini Death
+        name: Purple Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -7290,7 +7290,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Cocosini Death Sound
+        name: Purple Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -7313,7 +7313,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -7365,7 +7365,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Golubiro
+    name: Yellow
     startState: Idle
     states:
     - name: Idle
@@ -7375,14 +7375,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 51.5
         y: 141
-        width: 117
+        width: 106
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Golubiro Death
+          name: Yellow Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -7482,7 +7482,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Golubiro Death Sound
+          name: Yellow Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7501,7 +7501,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Golubiro Death
+          name: Yellow Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7591,7 +7591,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Golubiro Death
+          name: Yellow Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7678,7 +7678,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Golubiro Death
+          name: Yellow Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7708,10 +7708,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Golubiro Death
+    - name: Play
       isSystemEvent: 0
       isGlobal: 0
-    - name: Play
+    - name: Yellow Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -7720,7 +7720,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Golubiro Death
+        name: Yellow Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -7734,7 +7734,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Golubiro Death Sound
+        name: Yellow Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -7757,7 +7757,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -8201,7 +8201,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -8645,7 +8645,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -9089,7 +9089,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -9533,7 +9533,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
