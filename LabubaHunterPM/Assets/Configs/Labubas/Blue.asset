@@ -21,4 +21,4 @@ MonoBehaviour:
   _soundAttack: {fileID: 0}
   _soundIdle: {fileID: 0}
   _soundDeath: {fileID: 8300000, guid: f3bb65be42d04fd4290715c29ed3f575, type: 3}
-  _soundDamage: {fileID: 0}
+  _soundDamage: {fileID: 8300000, guid: 6c286a96c9b39f8488356f81431a0781, type: 3}

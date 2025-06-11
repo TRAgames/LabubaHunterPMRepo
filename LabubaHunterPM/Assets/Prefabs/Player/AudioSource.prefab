@@ -2037,7 +2037,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Brawn
+    name: Brown
     startState: Idle
     states:
     - name: Idle
