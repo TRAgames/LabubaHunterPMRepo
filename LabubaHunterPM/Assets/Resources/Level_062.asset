@@ -19,5 +19,5 @@ MonoBehaviour:
   _coinsForLevel: 400
   _enemyHealthMultiplier: 3
   _levelType: {fileID: 11400000, guid: 54fed966b83a8a043b4cd560cfc6db9a, type: 2}
-  _positionStartPoint: {x: 386, y: 5, z: -12}
+  _positionStartPoint: {x: 386, y: 2.6, z: -12}
   _rotationStartPoint: {x: 0, y: -19, z: 0, w: 0}

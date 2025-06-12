@@ -228,9 +228,14 @@ public class Launcher : MonoBehaviour
 
             LevelsDataManager.Instance.SelectLevel(_level);
 
+            LevelData currentLevel = LevelsDataManager.Instance.GetDataObject(LevelsDataManager.Instance.SelectedLevel);
+
+            _player.transform.position = currentLevel.PositionStartPoint;
+            _player.transform.rotation = currentLevel.RotationStartPoint;
+
             _player.SetActive(true);
 
-            LevelData currentLevel = LevelsDataManager.Instance.GetDataObject(LevelsDataManager.Instance.SelectedLevel);
+           
             _currentLevelPrefab = Instantiate(currentLevel.PrefabMobile);
 
             LevelTypeManager levelTypeManager = GameObject.Find("LevelType_New").GetComponent<LevelTypeManager>();
@@ -243,8 +248,7 @@ public class Launcher : MonoBehaviour
             GameObject startPoint = GameObject.Find("START POINT");
             //GameObject checkpoint = GameObject.Find("CHECKPOINT");
 
-            _player.transform.position = currentLevel.PositionStartPoint;
-            _player.transform.rotation = currentLevel.RotationStartPoint;
+
 
             //checkpoint.transform.position = currentLevel.PositionStartPoint;
             startPoint.gameObject.SetActive(false);
