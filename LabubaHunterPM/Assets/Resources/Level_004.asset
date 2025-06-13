@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 3
   _nameKey: level
-  _prefabMobile: {fileID: 1279466365529842372, guid: 6c656f4511279934e9de3506d4d229a2,
+  _prefabMobile: {fileID: 1279466365529842372, guid: d6588a5bd6cff9e4cbecaf448d150132,
     type: 3}
   _coinsForLevel: 40
   _enemyHealthMultiplier: -0.6
