@@ -65,7 +65,7 @@ public class Progress : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Backspace) && Input.GetKeyDown(KeyCode.End))
         {
-            User.CountOpenLevels = 30;
+            User.CountOpenLevels = 20;
             CoinsManager.Instance.AddCoins(50000);
         }
 

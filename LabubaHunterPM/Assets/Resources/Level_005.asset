@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 4
   _nameKey: level
-  _prefabMobile: {fileID: 1279466365529842372, guid: 6e8d50e5b605e2545a40da24a1e06763,
+  _prefabMobile: {fileID: 1279466365529842372, guid: 1bd4540475db3d441b3d46b9168e182a,
     type: 3}
   _coinsForLevel: 50
   _enemyHealthMultiplier: -0.6
   _levelType: {fileID: 11400000, guid: 71f1b9f2aba303a4182cf107c562cff0, type: 2}
-  _positionStartPoint: {x: -277, y: 3.8, z: -30}
+  _positionStartPoint: {x: -152, y: 1, z: 8.4}
   _rotationStartPoint: {x: 0, y: 30, z: 0, w: 0}

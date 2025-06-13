@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: 24_KillThemAll
   m_EditorClassIdentifier: 
   Goals:
-  - AnimalData: {fileID: 11400000, guid: b3a060d3ecf498542868ad783da79072, type: 2}
-    Count: 3
-  - AnimalData: {fileID: 11400000, guid: 174634d6958f58c44873ae1c8427465e, type: 2}
-    Count: 3
+  - AnimalData: {fileID: 11400000, guid: 2100478be509bab4a86746dc561e7644, type: 2}
+    Count: 1
