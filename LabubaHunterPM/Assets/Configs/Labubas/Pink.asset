@@ -15,8 +15,8 @@ MonoBehaviour:
   _icon: {fileID: 21300000, guid: 1cd49866fd5201444b4e89484f6a9a65, type: 3}
   _canHear: 1
   _mustSeePlayer: 1
-  _walkSpeed: 0.5
-  _runSpeed: 0.7
+  _walkSpeed: 1
+  _runSpeed: 2
   _attackSpeed: 0
   _soundAttack: {fileID: 0}
   _soundIdle: {fileID: 0}
