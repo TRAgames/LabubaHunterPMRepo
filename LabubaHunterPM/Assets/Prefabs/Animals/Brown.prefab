@@ -11751,7 +11751,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 1879769179923522, guid: 65932b7368590234d8163da03c2055d8,
+          value: {fileID: 1954603169351332, guid: 79735d4202de4794ba843953e026e38e,
             type: 3}
         - useVariable: 0
           name: 
@@ -11876,7 +11876,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
+          value: 0
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
