@@ -19,6 +19,6 @@ MonoBehaviour:
   _runSpeed: 2
   _attackSpeed: 0
   _soundAttack: {fileID: 0}
-  _soundIdle: {fileID: 8300000, guid: 305a5542566e5c14885ca59440f01b5e, type: 3}
-  _soundDeath: {fileID: 8300000, guid: 12453ea962a317e478ee218299121483, type: 3}
+  _soundIdle: {fileID: 0}
+  _soundDeath: {fileID: 8300000, guid: 33014d4d390cd53438a6351c2c206427, type: 3}
   _soundDamage: {fileID: 0}

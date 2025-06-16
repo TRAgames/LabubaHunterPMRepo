@@ -15,7 +15,7 @@ MonoBehaviour:
   Goals:
   - AnimalData: {fileID: 11400000, guid: d2d7a55c90924ac49bcedcb279428f7d, type: 2}
     Count: 1
-  - AnimalData: {fileID: 11400000, guid: 9c251a247c1d98b40873ab59834731b3, type: 2}
+  - AnimalData: {fileID: 11400000, guid: 35e1cb82420157b4ab5012c6dd06b92e, type: 2}
     Count: 1
   - AnimalData: {fileID: 11400000, guid: d313c07955951074ba0377076562a1ca, type: 2}
     Count: 1

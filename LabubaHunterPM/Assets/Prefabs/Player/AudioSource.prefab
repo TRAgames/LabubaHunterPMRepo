@@ -165,7 +165,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Tropa
+    name: White
     startState: Idle
     states:
     - name: Idle
@@ -175,14 +175,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 55
         y: 98
-        width: 103
+        width: 102
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Tropa Death
+          name: White Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -282,7 +282,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Tropa Death Sound
+          name: White Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tropa Death
+          name: White Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tropa Death
+          name: White Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tropa Death
+          name: White Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -508,16 +508,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Tropa Death
-      isSystemEvent: 0
-      isGlobal: 0
     - name: Play
       isSystemEvent: 0
       isGlobal: 0
-    - name: TungTung Death
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: Patapim Death
+    - name: White Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -526,19 +520,19 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Tropa Death
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: TungTung Death
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Patapim Death
+        name: White Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -552,21 +546,21 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Tropa Death Sound
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        typeName: UnityEngine.AudioClip
+        typeName: 
         value: {fileID: 0}
       - useVariable: 1
-        name: TungTung Death Sound
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        typeName: UnityEngine.AudioClip
+        typeName: 
         value: {fileID: 0}
       - useVariable: 1
-        name: Patapim Death Sound
+        name: White Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -589,7 +583,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -641,7 +635,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Patapim
+    name: Farmer_2
     startState: Idle
     states:
     - name: Idle
@@ -651,14 +645,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 56
         y: 110
-        width: 117
+        width: 123
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Patapim Death
+          name: Farmer_2 Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -758,7 +752,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Patapim Death Sound
+          name: Farmer_2 Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -777,7 +771,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Patapim Death
+          name: Farmer_2 Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -867,7 +861,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Patapim Death
+          name: Farmer_2 Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -954,7 +948,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Patapim Death
+          name: Farmer_2 Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -984,16 +978,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Tropa Death
+    - name: Farmer_2 Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: TungTung Death
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: Patapim Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -1002,19 +990,19 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Tropa Death
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: TungTung Death
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: Patapim Death
+        name: Farmer_2 Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1028,21 +1016,21 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Tropa Death Sound
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        typeName: UnityEngine.AudioClip
+        typeName: 
         value: {fileID: 0}
       - useVariable: 1
-        name: TungTung Death Sound
+        name: 
         tooltip: 
         showInInspector: 0
         networkSync: 0
-        typeName: UnityEngine.AudioClip
+        typeName: 
         value: {fileID: 0}
       - useVariable: 1
-        name: Patapim Death Sound
+        name: Farmer_2 Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1065,7 +1053,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1541,7 +1529,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -1985,7 +1973,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2429,7 +2417,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -2873,7 +2861,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -3317,7 +3305,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -3761,7 +3749,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4205,7 +4193,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4649,7 +4637,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -4701,7 +4689,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Tralalero
+    name: Striped
     startState: Idle
     states:
     - name: Idle
@@ -4711,14 +4699,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 63
         y: 168
-        width: 120
+        width: 112
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Tralalero Death
+          name: Striped Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -4818,7 +4806,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Tralalero Death Sound
+          name: Striped Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4837,7 +4825,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tralalero Death
+          name: Striped Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4927,7 +4915,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tralalero Death
+          name: Striped Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5014,7 +5002,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Tralalero Death
+          name: Striped Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -5047,7 +5035,7 @@ MonoBehaviour:
     - name: Play
       isSystemEvent: 0
       isGlobal: 0
-    - name: Tralalero Death
+    - name: Striped Death
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -5056,7 +5044,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Tralalero Death
+        name: Striped Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5070,7 +5058,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Tralalero Death Sound
+        name: Striped Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -5093,7 +5081,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5537,7 +5525,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -5981,7 +5969,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6425,7 +6413,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -6869,7 +6857,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -7313,7 +7301,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -7757,7 +7745,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -7809,7 +7797,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Gusini
+    name: Bear
     startState: Idle
     states:
     - name: Idle
@@ -7819,14 +7807,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 57.5
         y: 155
-        width: 104
+        width: 100
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Gusini Death
+          name: Bear Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -7926,7 +7914,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Gusini Death Sound
+          name: Bear Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -7945,7 +7933,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Gusini Death
+          name: Bear Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8035,7 +8023,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Gusini Death
+          name: Bear Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8122,7 +8110,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Gusini Death
+          name: Bear Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8152,7 +8140,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Gusini Death
+    - name: Bear Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -8164,7 +8152,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Gusini Death
+        name: Bear Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -8178,7 +8166,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Gusini Death Sound
+        name: Bear Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -8201,7 +8189,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -8253,7 +8241,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Lirili
+    name: Cute
     startState: Idle
     states:
     - name: Idle
@@ -8270,7 +8258,7 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Lirili Death
+          name: Cute Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -8370,7 +8358,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Lirili Death Sound
+          name: Cute Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8389,7 +8377,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Lirili Death
+          name: Cute Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8479,7 +8467,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Lirili Death
+          name: Cute Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8566,7 +8554,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Lirili Death
+          name: Cute Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8596,7 +8584,7 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Lirili Death
+    - name: Cute Death
       isSystemEvent: 0
       isGlobal: 0
     - name: Play
@@ -8608,7 +8596,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Lirili Death
+        name: Cute Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -8622,7 +8610,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Lirili Death Sound
+        name: Cute Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -8645,7 +8633,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -8697,7 +8685,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: Saturno
+    name: Green
     startState: Idle
     states:
     - name: Idle
@@ -8707,14 +8695,14 @@ MonoBehaviour:
         serializedVersion: 2
         x: 88.5
         y: 161
-        width: 114
+        width: 103
         height: 32
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Saturno Death
+          name: Green Death
           isSystemEvent: 0
           isGlobal: 0
         toState: Check Play
@@ -8814,7 +8802,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams:
         - useVariable: 1
-          name: Saturno Death Sound
+          name: Green Death Sound
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8833,7 +8821,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Saturno Death
+          name: Green Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -8923,7 +8911,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Saturno Death
+          name: Green Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -9010,7 +8998,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: Saturno Death
+          name: Green Death
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -9040,10 +9028,10 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
-    - name: Play
+    - name: Green Death
       isSystemEvent: 0
       isGlobal: 0
-    - name: Saturno Death
+    - name: Play
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -9052,7 +9040,7 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: Saturno Death
+        name: Green Death
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -9066,7 +9054,7 @@ MonoBehaviour:
       gameObjectVariables: []
       objectVariables:
       - useVariable: 1
-        name: Saturno Death Sound
+        name: Green Death Sound
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -9089,7 +9077,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -9533,7 +9521,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
