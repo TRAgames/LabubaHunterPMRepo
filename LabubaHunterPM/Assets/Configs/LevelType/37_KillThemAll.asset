@@ -19,5 +19,5 @@ MonoBehaviour:
     Count: 3
   - AnimalData: {fileID: 11400000, guid: f3bb4fe0c70dd5e4787c4d4e94979f71, type: 2}
     Count: 3
-  - AnimalData: {fileID: 11400000, guid: 9c251a247c1d98b40873ab59834731b3, type: 2}
-    Count: 3
+  - AnimalData: {fileID: 11400000, guid: 69a276596407d0f48abb9655418aecdb, type: 2}
+    Count: 1

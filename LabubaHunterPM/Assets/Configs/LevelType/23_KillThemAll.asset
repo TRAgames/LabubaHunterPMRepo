@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Goals:
   - AnimalData: {fileID: 11400000, guid: a608c79df204b464d8217aa65f7ccf7c, type: 2}
-    Count: 9
-  - AnimalData: {fileID: 11400000, guid: 0842152832f837d46bcbec5322742f55, type: 2}
-    Count: 9
-  - AnimalData: {fileID: 11400000, guid: c465d1835c444fd479f9b64e38d7db85, type: 2}
     Count: 5
+  - AnimalData: {fileID: 11400000, guid: 0842152832f837d46bcbec5322742f55, type: 2}
+    Count: 5
+  - AnimalData: {fileID: 11400000, guid: c465d1835c444fd479f9b64e38d7db85, type: 2}
+    Count: 2

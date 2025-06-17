@@ -10,6 +10,7 @@ public class UserExtern
     public int CountOpenLevels;
     public int CountMaxWave;
     public int Coins;
+    public int Boxes;
     public int Crystals;
     public int Rating;
     //public int PlayerLevelRifleMan;

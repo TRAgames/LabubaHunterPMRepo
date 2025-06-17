@@ -6,6 +6,7 @@ using UnityEngine;
 public class CurrencyManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _textCoins;
+    [SerializeField] private TextMeshProUGUI _textBoxes;
     //[SerializeField] private TextMeshProUGUI _textCrystals;
     //[SerializeField] private TextMeshProUGUI _textRaiting;
     [SerializeField] private PlayerStatsManager _playerStatsManager;
@@ -13,6 +14,7 @@ public class CurrencyManager : MonoBehaviour
     public void GetPlayerCurrency()
     {
         _textCoins.text = Progress.Instance.User.Coins.ToString();
+        _textBoxes.text = Progress.Instance.User.Boxes.ToString();
         //_textCrystals.text = Progress.Instance.User.Crystals.ToString();
         //_textRaiting.text = Progress.Instance.User.Rating.ToString(); //Progress.Instance.User.CountMaxWave.ToString();
     }

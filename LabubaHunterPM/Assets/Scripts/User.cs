@@ -24,6 +24,11 @@ public class User
         get => PlayerPrefs.GetInt("COINS");
         set => PlayerPrefs.SetInt("COINS", value);
     }
+    public int Boxes
+    {
+        get => PlayerPrefs.GetInt("BOXES");
+        set => PlayerPrefs.SetInt("BOXES", value);
+    }
     public int Crystals
     {
         get => PlayerPrefs.GetInt("CRYSTALS");
@@ -220,6 +225,7 @@ public class User
             CountOpenLevels = PlayerPrefs.GetInt("COUNT_OPEN_LEVELS", 0),
             CountMaxWave = PlayerPrefs.GetInt("COUNT_MAX_WAVE", 0),
             Coins = PlayerPrefs.GetInt("COINS", 0),
+            Boxes = PlayerPrefs.GetInt("BOXES", 0),
             Crystals = PlayerPrefs.GetInt("CRYSTALS", 0),
             Rating = PlayerPrefs.GetInt("RATING", 0),
             //PlayerLevelRevolverMan = PlayerPrefs.GetInt("PLAYER_LEVEL_REVOLVER_MAN", 1),
@@ -259,6 +265,7 @@ public class User
         PlayerPrefs.SetInt("COUNT_MAX_WAVE", currentUser.CountMaxWave);
         PlayerPrefs.SetInt("TUTORIAL_STEP", currentUser.TutorialStep);
         PlayerPrefs.SetInt("COINS", currentUser.Coins);
+        PlayerPrefs.SetInt("BOXES", currentUser.Boxes);
         PlayerPrefs.SetInt("CRYSTALS", currentUser.Crystals);
         PlayerPrefs.SetInt("RATING", currentUser.Rating);
         //SetPlayerLevel("PLAYER_LEVEL_REVOLVER_MAN", currentUser.PlayerLevelRevolverMan);

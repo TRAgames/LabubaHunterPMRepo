@@ -90,6 +90,7 @@ public class LocalizationManager : MonoBehaviour
                 localizedText.Add("dps","Мощь");
                 localizedText.Add("level_goals", "Цели уровня:");
                 localizedText.Add("all_sound_off", "На iOS звук временно не работает.\r\nПриносим извинения за неудобства.");
+                localizedText.Add("get_labubu", "Поймано Лабубу");
 
 
                 //управление
@@ -147,6 +148,7 @@ public class LocalizationManager : MonoBehaviour
                 localizedText.Add("dps", "Fuerza");
                 localizedText.Add("level_goals", "Objetivos de nivel:");
                 localizedText.Add("all_sound_off", "En iOS, el sonido no funciona temporalmente.\r\nPedimos disculpas por las molestias.");
+                localizedText.Add("get_labubu", "Labubu atrapadas");
 
 
                 //управление
@@ -204,6 +206,7 @@ public class LocalizationManager : MonoBehaviour
                 localizedText.Add("dps", "Kraft");
                 localizedText.Add("level_goals", "Level-Ziele:");
                 localizedText.Add("all_sound_off", "Auf iOS funktioniert der Sound vorübergehend nicht.\r\nWir entschuldigen uns für die Unannehmlichkeiten.");
+                localizedText.Add("get_labubu", "Labubu gefangen");
 
 
                 //управление
@@ -303,6 +306,7 @@ public class LocalizationManager : MonoBehaviour
                 localizedText.Add("dps", "Power");
                 localizedText.Add("level_goals", "Level goals:");
                 localizedText.Add("all_sound_off", "The sound temporarily does not work on iOS.\r\nWe apologize for the inconvenience.");
+                localizedText.Add("get_labubu", "Labubu cought");
 
                 //подсказки
                 localizedText.Add("loading_01_desc_01", "High Damage Area");
@@ -477,6 +481,7 @@ public class LocalizationManager : MonoBehaviour
                 localizedText.Add("dps", "Güç");
                 localizedText.Add("level_goals", "Seviyedeki hedefler:");
                 localizedText.Add("all_sound_off", "iOS'ta ses geçici olarak çalışmıyor.\r\nRahatsızlıktan dolayı özür dileriz.");
+                localizedText.Add("get_labubu", "Labubu yakalandı");
 
                 //подсказки
                 localizedText.Add("loading_01_desc_01", "Yüksek Hasar Alanı");

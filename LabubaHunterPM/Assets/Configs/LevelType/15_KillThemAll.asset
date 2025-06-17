@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Goals:
   - AnimalData: {fileID: 11400000, guid: a608c79df204b464d8217aa65f7ccf7c, type: 2}
-    Count: 10
+    Count: 6

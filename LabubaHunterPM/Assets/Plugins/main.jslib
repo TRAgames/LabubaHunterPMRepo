@@ -17,7 +17,7 @@ RateGame: function () {
 SetLeaderboardExtern: function (value) {
     ysdk.getLeaderboards()
         .then(lb => {
-    lb.setLeaderboardScore('rating2', value);
+    lb.setLeaderboardScore('boxes', value);
   });
 },
 
